@@ -1,4 +1,4 @@
-import { createContext, useContext } from "react";
+import { createContext } from "react";
 
-export const TasksContext = createContext(null);
-export const TasksDispatchReducer = createContext(null);
+export const TasksContext = createContext('');
+export const TasksDispatchContext = createContext('');
